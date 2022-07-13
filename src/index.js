@@ -23,31 +23,20 @@ const lists = [
   },
 ];
 
-// let itemFrominput = document.querySelector('.write-task ').value;
-
-// lists.unshift(itemFrominput)
-
 class Todo {
-  static addlist() {
+  static addlist(item) {
     const task = document.querySelector('.tasks');
     const listitem = document.createElement('li');
-    // eslint-disable-next-line no-restricted-syntax
-    for (const item of lists) {
-      listitem.innerHTML += `
-            <div class='item-label'>
+    listitem.innerHTML += `<div class='item-label'>
             <input type="checkbox" id="check" name="check">
             <label for="" class="label">${item.description}</label>
-            </div>
-
-                        `;
-    }
-
+            </div>  `;
     task.appendChild(listitem);
   }
 }
-
-Todo.addlist();
-
+for (let i = 0; i < lists.length; i += 1) {
+  Todo.addlist(lists[i]);
+}
 // line through the item when clicked
 const label = document.querySelectorAll('.label');
 
