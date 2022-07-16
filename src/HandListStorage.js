@@ -41,4 +41,12 @@ export class lists {
     }
     localStorage.setItem('task', JSON.stringify(tasks));
   }
+
+  static clearCompleted() {
+    let tasks = lists.getTasks();
+    tasks = tasks.filter((task) => !task.completed);
+    localStorage.setItem('task', JSON.stringify(tasks));
+    // reloading the window after clearing all completed
+    window.location.reload();
+  }
 }
