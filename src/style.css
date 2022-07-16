@@ -79,6 +79,7 @@ ul li {
 
 .item-content {
   width: 40%;
+  cursor: pointer;
 }
 
 .item-descriptiont {
@@ -102,7 +103,7 @@ ul li {
 }
 
 .inputTask {
-  border: none;
+  /* border: none; */
   padding-left: 10px;
   padding-left: 15px;
   color: black;
