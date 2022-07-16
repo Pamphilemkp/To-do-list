@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do list App</title>
-<script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
+<script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script><script defer src="storage.bundle.js"></script></head>
 <body>
     <div class="container">
-       
-            <nav>
-                <h1>Today's To Do</h1>
-                <p></p>
-            </nav>
+        <section class="section">
             
-            <input type="text" placeholder="Add to your list...">
-            <ul list></ul>
-        
+                <h1>Today's To Do</h1>
+            <form action="" class="form">
+                <input type="text" placeholder="Add to your list..." class="write-task">
+                <button type="submit">+</button>
+            </form>
+            
+            <ul class="tasks">
+
+            </ul>
+
+            <div class="clear">
+                <p class="clear-element">Clear all completed</p>
+            </div>
+        </section>
     </div>
 </body>
 </html>

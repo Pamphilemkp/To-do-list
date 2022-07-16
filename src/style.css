@@ -51,17 +51,22 @@ form {
 .write-task {
   border: none;
   padding-left: 10px;
+  width: 45%;
+  padding-left: 15px;
+  outline: 0;
 }
 
 ul {
   padding: 0;
   width: 100%;
+  overflow-y: scroll;
 }
 
 ul li {
   list-style: none;
   border-bottom: solid 1px #f6f6f6;
   margin-top: -15px;
+  
 }
 
 .item-label {
@@ -71,6 +76,15 @@ ul li {
   align-items: center;
   gap: 10px;
   padding-left: 10px;
+  width: 70%;
+  padding: 6px 20px;
+}
+.item-content {
+  width: 27%;
+}
+
+.item-descriptiont{
+  width: 45%;
 }
 
 .clear {
@@ -80,4 +94,8 @@ ul li {
   text-align: center;
   width: 100%;
   height: 70px;
+}
+
+.line-through {
+  text-decoration: line-through;
 }
