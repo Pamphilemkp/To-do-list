@@ -20,6 +20,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #fff;
+  background-image: radial-gradient( circle farthest-corner at 7.2% 13.6%,  rgba(37,249,245,1) 0%, rgba(8,70,218,1) 90% );
   border-radius: 3px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   font-weight: 300;
@@ -53,6 +54,7 @@ form {
   width: 45%;
   padding-left: 15px;
   outline: 0;
+  margin-left: 5%;
 }
 
 ul {
@@ -78,7 +80,10 @@ ul li {
 }
 
 .item-content {
-  width: 30%;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .item-description {
@@ -90,12 +95,22 @@ ul li {
 
 .clear {
   margin-top: -15px;
-  background-color: #f6f6f6;
   color: rgba(0, 0, 0, 0.5);
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 70px;
   cursor: pointer;
+}
+
+.clear-element {
+  border: solid 1px rgba(0, 0, 0, 0.7);;
+  width: 20%;
+  border-radius: 10px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 5px;
 }
 
 .line-through {
@@ -112,4 +127,22 @@ ul li {
 
 .hide {
   display: none;
+}
+
+.edit {
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  color: black;
+}
+
+.delete {
+  color: #f6f6f6;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  background-color: rgba(252, 27, 27, 1);
 }
