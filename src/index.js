@@ -12,7 +12,7 @@ class Todo {
     const listitem = document.createElement('li');
     listitem.classList.add('list');
     listitem.innerHTML += `<div class='item-label' >
-    <div class='item-descriptiont'>
+    <div class='item-description'>
       <input type="checkbox" class='check-box'>
       <input type="text" id="task-${tasks.index}" class="inputTask" value="${tasks.description}" disabled= true >
       </div>
