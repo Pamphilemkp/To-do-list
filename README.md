@@ -3,7 +3,7 @@
 # To Do LIST APP
 
 > Description the project.
-The To do list app is a prpject which allows you to write down a task that you want to do(you schedule a task) you can mark them as completed or edit them and finally delete or clear all the completed tasks which are marked as completed.
+The To do list app is a project which allows you to write down a task that you want to do (you schedule a task) you can mark them as completed or edit them and finally delete or clear all the completed tasks which are marked as completed.
 
 
 ## Built With
