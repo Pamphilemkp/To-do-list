@@ -17,7 +17,7 @@ The To do list app is a prpject which allows you to write down a task that you w
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://pamphilemkp.github.io/To-do-list/)
 
 
 ## Getting Started
@@ -49,7 +49,7 @@ Any kind of browser.
 
 ### Deployment
 
-
+[Click on here to see the deployment](https://pamphilemkp.github.io/To-do-list/)
 
 ## Authors
 
